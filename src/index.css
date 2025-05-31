@@ -1,0 +1,156 @@
+@import "tailwindcss";
+body{
+    background-color: black;
+    color: white;
+}
+.bg1 {
+ 
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden;
+  
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+#about {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#about::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('./assets/about.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4; /* Adjust opacity as needed */
+  z-index: -1;
+}
+#contact {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#contact::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('./assets/contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4; /* Adjust opacity as needed */
+  z-index: -1;
+}
+
+.section-2 {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.section-2::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('./assets/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3; /* Adjust as needed */
+  z-index: -1;
+}
+
+
+
+.bg1::before {
+  content: '';
+  position: absolute;
+  height: 70vh;
+  inset: 0;
+  background-image: url('./assets/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6; /* adjust as needed */
+  z-index: -1;
+}
+
+.section2-row1{
+    background-color: yellow;
+    clear: both;
+}
+
+/* From Uiverse.io by abrahamcalsin */ 
+button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+
+button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #ffd401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+button span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+ 
+  color: #fff;
+  
+  
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover span {
+  color: #12468f;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
