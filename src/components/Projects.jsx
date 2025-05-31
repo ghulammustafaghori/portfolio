@@ -6,7 +6,7 @@ import img2 from '../assets/restaurant.jpg';
 import img3 from '../assets/Maxesso.jpg';
 import img4 from '../assets/chat.jpeg';
 import img5 from '../assets/Shopskies.jpg';
-import img6 from '../assets/blog.png';
+import img6 from '../assets/blog.jpg';
 
 const projects = [
    {
