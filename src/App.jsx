@@ -9,25 +9,12 @@ import Contact from "./components/Contact.jsx";
 function App() {
   return (
     <div>
-      <BrowserRouter>
-       <Navbar />
-       <Home />
-       <Skills />
-       <Projects />
-       <About />
-       <Contact />
-       
-      <Routes>
-        
-        {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/contact" element={<Contact />} />
-        
-      </Routes>
-      
-      </BrowserRouter>
+      <Navbar />
+     <Home />
+      <Skills />
+     <Projects />
+     <About />
+     <Contact />
      
     </div>
     

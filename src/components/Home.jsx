@@ -1,10 +1,7 @@
 import React from 'react'
 import bg1 from '../assets/bg1.jpg'
 import { Typewriter } from 'react-simple-typewriter'
-import Skills from './Skills'
-import Projects from './Projects'
-import Contact from './Contact'
-import About from './About'
+
 
 
 const Home = () => {
