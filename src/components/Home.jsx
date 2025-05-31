@@ -20,8 +20,8 @@ const Home = () => {
       /></h1>
           <h2>MERN Stack Developer</h2>
          <div className='flex gap-3 mt-2'>
-           <button className=' border p-2 rounded-xl text-sm bg-yellow-300 text-black cursor-pointer hover:bg-transparent hover:text-yellow-300 '><span>View Projects</span></button>
-          <button className=' border hover:bg-yellow-300 hover:text-black p-2 rounded-xl text-sm '><span>Contact</span></button>
+           <button className=' border p-2 rounded-xl text-sm bg-yellow-300 text-black cursor-pointer hover:bg-transparent hover:text-yellow-300 '><span><a href='#projects'>View Projects</a></span></button>
+          <button className=' border hover:bg-yellow-300 hover:text-black p-2 rounded-xl text-sm '><span><a href='#contact'>Contact</a></span></button>
          </div>
           
           
